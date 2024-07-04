@@ -36,6 +36,6 @@
     "ssl-express-www": "^3.0.8",
     "tiktok-scraper": "^1.4.36",
     "vm": "^0.1.0",
-    "yt-search": "^2.9.0"
+    "yt-search": "^2.10.4"
   }
 }
