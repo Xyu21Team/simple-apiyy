@@ -102,9 +102,7 @@ router.get('/youtube', async(req, res) => {
 		res.json({ message: 'Ups, error' })
 	}
 })
-router.get('/play', async(req, res) =>  {
-    return new Promise((resolve, reject) => {
-        try {
+router.get('/play', async(req, res) => {
             const search = yts(query)
             .then((data) => {
                 const url = []
